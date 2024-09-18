@@ -1,0 +1,56 @@
+/* src/App.css */
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+  min-height: 100vh; /* Full viewport height */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+/* Style for movie cards */
+.movie-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  width: 200px;
+}
+
+/* Ensure images fit within movie cards */
+.movie-card img {
+  width: 100%;
+}
+
+/* Style for add movie form */
+.add-movie-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-movie-form input {
+  display: block;
+  margin: 5px 0;
+}
+
+.add-movie-form button {
+  margin-top: 10px;
+}
+
+/* Style for filter component */
+.filter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.filter input {
+  margin: 5px;
+}
+
+.filter button {
+  margin-left: 5px;
+}
